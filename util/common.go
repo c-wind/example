@@ -1,10 +1,10 @@
 package util
 
 import (
-    "fmt"
-    "time"
+	"fmt"
+	"time"
 )
 
 func Log(s string) {
-    fmt.Printf("%v %v\n", time.Now(), s)
+	fmt.Printf("%v %v\n", time.Now(), s)
 }
