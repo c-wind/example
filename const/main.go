@@ -20,6 +20,11 @@ const (
 )
 
 const (
+	CC0 = "xxxxx"
+	CC1 = "bbb"
+	CC2  = iota
+)
+const (
 	_          = iota
 	KB float64 = 1 << (10 * iota)
 	MB
@@ -32,6 +37,8 @@ const (
 )
 
 func main() {
+    println(CC0, CC1, CC2)
+    return
 
 	println(A1, A2, A3)
 	println(B1, B2, B3)
